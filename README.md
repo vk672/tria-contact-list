@@ -27,7 +27,7 @@ A clean, modern React web app for managing contacts, built for technical evaluat
 - **Toast Notifications:** Friendly feedback for add/search actions.
 - **Loading/Empty State:** Shows animated message when no contacts or still loading.
 - **Responsive Design:** Works great on mobile/tablet and desktop.
-- **Professional Gradient Background:** Uses soft, multi-color gradient for recruiter-friendly design.
+- **Modern Gradient Background:** Uses a multi-color gradient for visual appeal.
 
 ---
 
@@ -44,11 +44,29 @@ Clone the repository and install dependencies:
 git clone https://github.com/vk672/tria-contact-list.git
 cd tria-contact-list
 npm install
-
-Start the app:
-npm start
+Start the app: npm start
 
 Visit [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 🌳 Folder Structure
+
+tria-contact-list/
+├── public/
+│ └── index.html
+├── src/
+│ ├── components/
+│ │ ├── ContactList.js
+│ │ ├── ContactSearch.js
+│ │ ├── ContactForm.js
+│ │ └── Toast.js
+│ ├── App.js
+│ ├── index.js
+│ └── styles.css
+├── package.json
+├── README.md
+
 
 ---
 
@@ -69,12 +87,12 @@ Deployed and auto-updated with [Vercel](https://vercel.com/), linked to the proj
 
 ## 🎨 Design Decisions
 
-- Chosen a gentle color gradient for professional visual impact.
-- Avatar circles for contacts give personalization and polish.
+- Used a gentle color gradient for visual impact.
+- Avatar circles for contacts add personalization and polish.
 - Form validation prevents incomplete data and guides user.
-- Toast notifications create instant, clear feedback.
+- Toast notifications provide instant, clear feedback.
 - Mobile-first responsive layout for accessibility and usability.
-- Structure follows React modular best practices for maintainability.
+- React modular structure for maintainability.
 
 ---
 
@@ -102,3 +120,4 @@ This project is open source under the MIT License.
 ## 👤 Author
 
 - [vk672](https://github.com/vk672)
+
